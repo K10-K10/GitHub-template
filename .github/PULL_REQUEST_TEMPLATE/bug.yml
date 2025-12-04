@@ -1,0 +1,20 @@
+name: Bug
+description: Fix Bug
+title: "[Bug]"
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you fix some bugs,use this PR template.
+
+  - type: textarea
+    id: bug
+    attributes:
+      label: fixed-bug
+      description: Describe your fixed bug.
+      placeholder: Bug...
+    validations:
+      required: true
